@@ -1,0 +1,25 @@
+.maindiv
+{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: flex-start;
+    
+}
+
+
+.box
+{
+ display: flex;
+ justify-content: center;
+ margin-top:10px;
+ border: 2px solid black;
+ width: 100px;
+ height: 100px;
+ box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+ color: black;
+ visibility: hidden;
+
+}
+
+
+.box:hover { background-color: #000000; }
